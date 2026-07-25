@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+engine3_soil_rf_model_ORIGINAL_BACKUP.pkl
+artifacts/joblib_compress.ipynb
+EDA/

@@ -1,0 +1,54 @@
+Crop,Price,Unit,Price_Type
+Arecanut,350000,₹/tonne,Wholesale
+Arhar,84500,₹/tonne,MSP
+Bajra,29000,₹/tonne,MSP
+Banana,41922,₹/tonne,Wholesale
+Barley,21500,₹/tonne,MSP
+Black Pepper,706333,₹/tonne,Wholesale
+Cardamom,2791410,₹/tonne,Wholesale
+Cashewnut,88000,₹/tonne,Wholesale
+Castor Seed,86500,₹/tonne,MSP
+Cereals,23990,₹/tonne,Derived_Average
+Coconut,59570,₹/tonne,Wholesale
+Coriander,147298,₹/tonne,Wholesale
+Cotton,84670,₹/tonne,MSP
+Cowpea,67000,₹/tonne,Wholesale
+Dry Chillies,192360,₹/tonne,Wholesale
+Garlic,140000,₹/tonne,Wholesale
+Ginger,112800,₹/tonne,Wholesale
+Gram,58750,₹/tonne,MSP
+Groundnut,75170,₹/tonne,MSP
+Guar Seed,59072,₹/tonne,Wholesale
+Horse Gram,66460,₹/tonne,Wholesale
+Jowar,40480,₹/tonne,MSP
+Jute,58000,₹/tonne,MSP
+Kharif Pulse,84767,₹/tonne,Derived_Average
+Khesari,60000,₹/tonne,MSP
+Linseed,70500,₹/tonne,MSP
+Maize,24100,₹/tonne,MSP
+Masoor,70000,₹/tonne,MSP
+Mesta,58000,₹/tonne,MSP
+Millet,40510,₹/tonne,Derived_Average
+Moong,87800,₹/tonne,MSP
+Moth,129810,₹/tonne,Wholesale
+Mustard,62000,₹/tonne,MSP
+Niger Seed,100520,₹/tonne,MSP
+Oilseed,78151,₹/tonne,Derived_Average
+Onion,25313,₹/tonne,Wholesale
+Pea,35000,₹/tonne,Wholesale
+Potato,16609,₹/tonne,Wholesale
+Rabi Pulse,64375,₹/tonne,Derived_Average
+Ragi,52050,₹/tonne,MSP
+Rice,24510,₹/tonne,MSP
+Safflower,65400,₹/tonne,MSP
+Sannhamp,109540,₹/tonne,Wholesale
+Sesamum,103460,₹/tonne,MSP
+Soyabean,57080,₹/tonne,MSP
+Sugarcane,3650,₹/tonne,FRP
+Sunflower,83430,₹/tonne,MSP
+Sweet Potato,36800,₹/tonne,Wholesale
+Tapioca,32569,₹/tonne,Wholesale
+Tobacco,233000,₹/tonne,Wholesale
+Turmeric,178840,₹/tonne,Wholesale
+Urad,82000,₹/tonne,MSP
+Wheat,25850,₹/tonne,MSP

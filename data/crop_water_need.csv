@@ -1,0 +1,54 @@
+Crop,WaterNeedTier,WaterNeedNumeric
+Arecanut,High,1.0
+Arhar,Low,0.33
+Bajra,Low,0.33
+Banana,High,1.0
+Barley,Low,0.33
+Black Pepper,Medium,0.66
+Cardamom,High,1.0
+Cashewnut,Low,0.33
+Castor Seed,Low,0.33
+Cereals,Medium,0.66
+Coconut,High,1.0
+Coriander,Low,0.33
+Cotton,Medium,0.66
+Cowpea,Low,0.33
+Dry Chillies,Medium,0.66
+Garlic,Medium,0.66
+Ginger,Medium,0.66
+Gram,Low,0.33
+Groundnut,Medium,0.66
+Guar Seed,Low,0.33
+Horse Gram,Low,0.33
+Jowar,Low,0.33
+Jute,High,1.0
+Kharif Pulse,Low,0.33
+Khesari,Low,0.33
+Linseed,Low,0.33
+Maize,Medium,0.66
+Masoor,Low,0.33
+Mesta,Medium,0.66
+Millet,Low,0.33
+Moong,Low,0.33
+Moth,Low,0.33
+Mustard,Low,0.33
+Niger Seed,Low,0.33
+Oilseed,Low,0.33
+Onion,Medium,0.66
+Pea,Low,0.33
+Potato,Medium,0.66
+Rabi Pulse,Low,0.33
+Ragi,Low,0.33
+Rice,High,1.0
+Safflower,Low,0.33
+Sannhamp,Low,0.33
+Sesamum,Low,0.33
+Soyabean,Medium,0.66
+Sugarcane,High,1.0
+Sunflower,Medium,0.66
+Sweet Potato,High,1.0
+Tapioca,High,1.0
+Tobacco,Medium,0.66
+Turmeric,Medium,0.66
+Urad,Low,0.33
+Wheat,Medium,0.66
