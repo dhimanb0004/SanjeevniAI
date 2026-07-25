@@ -27,8 +27,9 @@ from scipy.stats import percentileofscore
 
 # ---------------- Config ----------------
 
-ARTIFACT_DIR = os.environ.get("SANJEEVNI_ARTIFACT_DIR", r"C:\Sanjeevni_App\artifacts")
-DATA_DIR = os.environ.get("SANJEEVNI_DATA_DIR", r"C:\Sanjeevni_App\data")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+ARTIFACT_DIR = os.environ.get("SANJEEVNI_ARTIFACT_DIR", os.path.join(BASE_DIR, "artifacts"))
+DATA_DIR = os.environ.get("SANJEEVNI_DATA_DIR", os.path.join(BASE_DIR, "data"))
 
 MODEL_PATH = os.path.join(ARTIFACT_DIR, "engine1_lightgbm_model.pkl")
 SEASON_LOOKUP_PATH = os.path.join(ARTIFACT_DIR, "season_lookup.pkl")

@@ -10,7 +10,8 @@ import os
 import base64
 import streamlit as st
 
-ASSETS_DIR = os.environ.get("SANJEEVNI_ASSETS_DIR", r"C:\Sanjeevni_App\assets")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+ASSETS_DIR = os.environ.get("SANJEEVNI_ASSETS_DIR", os.path.join(BASE_DIR, "assets"))
 LOGO_PATH = os.path.join(ASSETS_DIR, "Logo_sanjeevni.png")
 CHATBOT_LOGO_PATH = os.path.join(ASSETS_DIR, "SanjeevniChatbotLogo.png")  # not used yet, this is for the chatbot logo coming in Step 4
 

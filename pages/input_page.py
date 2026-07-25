@@ -14,7 +14,8 @@ import streamlit as st
 
 from gemini_client import get_sanjeevni_report
 
-DATA_DIR = os.environ.get("SANJEEVNI_DATA_DIR", r"C:\Sanjeevni_App\data")
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.environ.get("SANJEEVNI_DATA_DIR", os.path.join(BASE_DIR, "data"))
 STATE_DIST_SEASON_PATH = os.path.join(DATA_DIR, "State_Dist_Season_UI.csv")
 
 OTHERS_LABEL = "Others (type below)"

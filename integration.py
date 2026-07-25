@@ -19,7 +19,8 @@ from engine3_serving import rerank_with_soil
 
 
 # ---------------- Configuration ----------------
-DATA_DIR = os.environ.get("SANJEEVNI_DATA_DIR", r"C:\Sanjeevni_App\data")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_DIR = os.environ.get("SANJEEVNI_DATA_DIR", os.path.join(BASE_DIR, "data"))
 MSP_PATH = os.path.join(DATA_DIR, "MSP.csv")
 CROPYIELD_PATH = os.path.join(DATA_DIR, "CropYield_mergeReady_v2.csv")
 

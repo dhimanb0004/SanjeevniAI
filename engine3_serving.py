@@ -15,21 +15,21 @@ with zero retraining cost.
 """
 
 import os
-import pickle
+import joblib
 import pandas as pd
 
 from engine1_serving import generate_shortlist_forecast  # noqa: F401 -- keeping this around so callers can grab it from either engine1_serving or engine3_serving, whichever makes more sense in context
 
 # ---------------- Config ----------------
 
-ARTIFACT_DIR = os.environ.get("SANJEEVNI_ARTIFACT_DIR", r"C:\Sanjeevni_App\artifacts")
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+ARTIFACT_DIR = os.environ.get("SANJEEVNI_ARTIFACT_DIR", os.path.join(BASE_DIR, "artifacts"))
 MODEL_PATH = os.path.join(ARTIFACT_DIR, "engine3_soil_rf_model.pkl")
 
 FEATURES = ["Nitrogen", "Phosphorus", "Potassium", "OC", "pH"]
 
 print("[engine3_serving] Loading persisted RF model ...")
-with open(MODEL_PATH, "rb") as f:
-    rf_model = pickle.load(f)
+rf_model = joblib.load(MODEL_PATH)
 print(f"[engine3_serving] Ready. Classes: {len(rf_model.classes_)}")
 
 
