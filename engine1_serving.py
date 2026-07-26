@@ -73,7 +73,7 @@ print(f"[engine1_serving] Ready. latest_scored: {latest.shape}, season_lookup: {
 
 # 1. It's just a naming quirk. Assam/WB/Kerala Rice, for example, is only ever recorded under Autumn/Summer/Winter -- never Kharif or Rabi at all. Since the crop never touches the standard vocabulary in the first place, falling back to whatever labels it does use is safe -- it's the same growing window, just called something else.
 
-# 2. It's a genuinely real seasonal restriction. Urad in Assam is a good example -- consistently Rabi, confirmed across 470 rows, with zero Kharif rows anywhere in the state. Falling back here would be wrong --it would recommend Urad for a season it has never actually been grown in. So instead this returns an empty list, and the caller just drops the crop from this particular query rather than quietly substituting a season that doesn't reflect reality. 
+# 2. It's a genuinely real seasonal restriction. Urad in Assam is a good example -- consistently Rabi, confirmed across 470 rows, with zero Kharif rows anywhere in the state. Falling back here would be wrong --it would recommend Urad for a season it has never actually been grown in. So instead this returns an empty list, and thcde caller just drops the crop from this particular query rather than quietly substituting a season that doesn't reflect reality. 
 
 
 STANDARD_SEASONS = {"Kharif", "Rabi"}
